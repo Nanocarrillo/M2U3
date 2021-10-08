@@ -1,0 +1,58 @@
+
+body {
+  color:white;
+  background:black;
+  font-size: 100%;
+}
+.destacados {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+nav {
+  float: none;
+  width: 160px;
+}
+
+aside {
+  border-top: solid black 0.1em;
+  float: none;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px) {
+  body {
+    color: white;
+    background:black;
+  }
+
+  img{
+    display:block;
+    margin:auto;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+  .destacados {
+    background:red;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    background:blue;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  aside {
+    border-top: solid black 0.1em;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
